@@ -10,7 +10,7 @@ for ($i = 0; $i < $kolvo; $i++) {
 $len = count($numbers);
 $isAscending = true;
 
-if ($len <= 1) {
+if ($len === 0 || $len === 1) {
     $isAscending = true;
 } else {
     $i = 0;
